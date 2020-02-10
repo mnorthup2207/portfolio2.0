@@ -12,6 +12,9 @@ a:hover{
     text-decoration: none;
 }
 /* index.html */
+.blurb{
+    margin-top: 10rem;
+}
 .landPic{
     width: 100%;
     height: 100%;
@@ -20,6 +23,22 @@ a:hover{
 .hNav{
     margin-top: 3rem;
 }
+.rotateimg90{
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    box-sizing: border-box;
+    border: .2rem black solid;
+    border-radius: .5rem;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    #paraEL {
+        margin-top: 10rem;
+    }
+  }
 /* Password.html */
 .formLabel{
     width: 20rem;
