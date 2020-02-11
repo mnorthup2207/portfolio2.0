@@ -37,11 +37,6 @@ a:hover{
     border-radius: .5rem;
     width: 100%;
 }
-@media screen and (max-width: 800px) {
-    #paraEL {
-        margin-top: 10rem;
-    }
-  }
 /* Password.html */
 .formLabel{
     width: 20rem;
@@ -69,3 +64,37 @@ a:hover{
 #passwordInput{
     margin-left: 3rem;
 }
+/* portfolio.html */
+.portfolioPic{
+    width: 100%;
+}
+#portRow{
+    margin-top: 4rem;
+}
+#visit:hover{
+    border: solid black .2rem;
+    box-sizing: border-box;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+#nameInput, #emailInput, #detailsInput{
+    width: 100%;
+}
+#formDiv{
+    border-right: black solid .2rem;
+    box-sizing: border-box;
+    padding-right: 3rem;
+}
+#contactRow{
+    margin-left: 12rem;
+}
+/* media */
+@media screen and (max-width: 800px) {
+    #paraEl {
+        margin-top: 10rem;
+    }
+    #portRow{
+        margin: 10%;
+    }
+  }
