@@ -2,7 +2,7 @@ console.log("%cThe Answer To This Question Is the Password You Seek!", "font-siz
 console.log("*****What Year Was JavaScript Created?****");
 
 const nodemailer = require("nodemailer");
-const $ = require("jQuery")(require("jsdom").jsdom().parentWindow);
+// const $ = require("jQuery")(require("jsdom").jsdom().parentWindow);
 
 $("#sendMSG").on("click", function(e) {
     e.preventDefault();
