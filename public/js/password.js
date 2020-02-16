@@ -22,11 +22,9 @@ $("#passSubmit").on("click", (e) => {
     e.preventDefault();
     console.log($("#passwordInput").val());
     if($("#passwordInput").val() === "1995") {
-        location.replace("game.html")
+        location.replace("snake.html")
     } else {
         location.replace("index.html")
     }
-    
-    
 })
 

@@ -8,4 +8,13 @@ $("#sendMSG").on("click", function(e) {
     const email = $("#emailInput").val();
     const message = $("#detailsInput").val();
     console.log(`Message From: ${name} | Email: ${email} | Message Details: ${message}`);
+
+
+    $.post("/api/post", {
+        name: name,
+        email: email,
+        message: message
+    }).then(data => {
+        console.log(data);
+    });
 });
