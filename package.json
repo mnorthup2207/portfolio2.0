@@ -4,7 +4,7 @@
   "description": "The function of my portfolio is to display my knowledge in  full stack web development, such as: HTML, CSS, JavaScript, JQuery, Server Side API's. The end user being a future employer or client.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.4"
   },
